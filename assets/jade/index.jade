@@ -1,0 +1,294 @@
+doctype html
+html(lang="ja")
+  head
+    //- TODO: 検索対象から外す
+    //- meta(name="robots", content="noindex,nofollow")
+    meta(charset='UTF-8')
+    meta(name="viewport", content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no")
+    meta(http-equiv="x-ua-compatible", content="ie=edge")
+    meta(content="", name="description")
+    title elevennines,Inc.
+    link(href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700', rel='stylesheet')
+    link(rel="stylesheet", href="css/common.css")
+  body.drawer.drawer-left
+    div.drawer-main
+      nav.drawer-nav.nav
+        p.nav__btn.btn.btn--burger.drawer-toggle
+        ul.drawer-menu.nav__side-list
+          li
+            a(href="#").drawer-toggle.u-fS20 elevennines,Inc.
+          li
+            a(href="#anc-about").drawer-toggle ABOUT
+          li
+            a(href="#anc-works").drawer-toggle WORKS
+          li
+            a(href="#anc-service").drawer-toggle SERVICE
+          li
+            a(href="#anc-company").drawer-toggle COMPANY
+          li
+            a(href="#anc-contact").drawer-toggle CONTACT
+
+    div.drawer-overlay
+      header.l-header
+        nav.header
+          div.header__inner
+            div.header__left-outer
+              h1.header__hd
+                a(href="#") elevennines,Inc.
+            div.header__right-outer
+              nav.nav
+                ul.nav__list
+                  li
+                    a(href="#anc-about") ABOUT
+                  li
+                    a(href="#anc-works") WORKS
+                  li
+                    a(href="#anc-service") SERVICE
+                  li
+                    a(href="#anc-company") COMPANY
+                  li
+                    a(href="#anc-contact") CONTACT
+
+          nav#js-tracking.header.header--tracking
+            div.header__inner
+              div.header__left-outer
+                h1.header__hd
+                  a(href="#") elevennines,Inc.
+              div.header__right-outer
+                nav.nav
+                  ul.nav__list
+                    li
+                      a(href="#anc-about") ABOUT
+                    li
+                      a(href="#anc-works") WORKS
+                    li
+                      a(href="#anc-service") SERVICE
+                    li
+                      a(href="#anc-company") COMPANY
+                    li
+                      a(href="#anc-contact") CONTACT
+
+      div.l-section.l-section--hero
+        div.l-section__inner
+          section.hero
+            h1.hero__hd1
+              span WE’RE
+              span  &nbsp;THE&nbsp;“CO-DESIGN”
+              span CREW
+
+            h2.hero__hd2 elevennines,Inc.
+
+      div#anc-about.l-section.l-section--about
+        div.l-section__inner
+          section.section.section--about
+            h1.section__hd ABOUT
+
+            section.sub-section
+              h1.sub-section__hd “CO-DESIGN”＝一緒に実現する、一緒に解決する
+              p.sub-section__txt
+                |私たちは、実現したい、解決したいことのある「あなた」と、それを達成するまでの道筋を
+                br
+                |“CO-DESIGN”します。
+
+            section.sub-section.sub-section--second
+              h1.sub-section__hd
+                |PR・UX・UI・エンジニア
+                br
+                |様々なエキスパートとの“CO-DESIGN”
+              p.sub-section__txt
+                |デザインとは見た目だけのことではありません。例えばビジネス・サービスにおいて、PRデザイナーとUX・UIデザイナーが
+                br
+                |まだユーザーでない人をユーザーに、そしてユーザーをファンに、そんな道筋を“CO-DESIGN”します。
+              div.sub-section__img
+                div.sub-section__img-inner
+              p.sub-section__txt
+                |また、主に下記の領域の技術力を持つエンジニアと、実現性、持続性のある課題解決を“CO-DESIGN”します。
+              p.sub-section__caption
+                |iOS/Android/HTML/CSS/PHPjs/Sever/Wordpress
+              img(src="img/about/img-02.jpg" alt="").sub-section__img.sub-section__img--second
+
+      div#anc-works.l-section.l-section--works
+        div.l-section__inner
+          section.section.section--works
+            h1.section__hd WORKS
+
+            section.sub-section.row
+              div.sub-section__left-outer.col-md-6
+                h1.sub-section__hd
+                  |築地もったいないプロジェクト「魚治」
+                p.sub-section__txt
+                  |全国の“もったいない”を“おいしい”に変えるプロジェクトの第1弾として、もったいない食材を活用した飲食店としてオープンした「魚治」。東京丸の内の新東京ビルB1Fに新装開店となったタイミングでPRをおこない、TVや新聞、雑誌をはじめWEB上でも話題になり、広告換算2億円以上の効果となりました。
+              div.sub-section__right-outer.col-md-6
+                img(src="img/works/thumb-01.jpg", alt="築地もったいないプロジェクト「魚治」").sub-section__img
+
+            section.sub-section.row
+              div.sub-section__left-outer.col-md-6
+                h1.sub-section__hd
+                  |グローバルポータル
+                p.sub-section__txt
+                  |複数のサービスを連結し海外で活躍するワーカーを支える日立システムズの海外渡航者向け業務支援システム「グローバルポータル」に初期の企画段階から携わり、UI/UXデザインをはじめ、パンフレット、展示パネルなどPRクリエイティブの製作を行いました。
+              div.sub-section__right-outer.col-md-6
+                img(src="img/works/thumb-02.jpg", alt="グローバルポータル").sub-section__img
+
+            section.sub-section.row
+              div.sub-section__left-outer.col-md-6
+                h1.sub-section__hd
+                  |免税店サポートプラザ
+                p.sub-section__txt
+                  |簡単免税店化許可サービスである「免税店サポートプラザ」 のPRをおこない、テレビ東京系列ワールドビジネスサテライトをはじめ、多数のメディアに取り上げていただきました。税制の法改正や外国人旅行客の増加などの外的要因とうまく関連付けることで、訴求したい文脈とメディアの取り上げたい文脈を一致させ、露出の最大化を図りました。
+              div.sub-section__right-outer.col-md-6
+                img(src="img/works/thumb-03.jpg", alt="免税店サポートプラザ").sub-section__img
+
+            section.sub-section.row.u-borderless
+              div.sub-section__left-outer.col-md-6
+                h1.sub-section__hd
+                  |Locari
+                p.sub-section__txt
+                  |20代後半から30代前半の女性を中心として急速に成長している、女性の暮らしを豊かにするライフスタイル提案マガジンです。UI/UXデザインから広告クリエイティブ製作まで携わらせて頂いています。
+              div.sub-section__right-outer.col-md-6
+                img(src="img/works/thumb-04.jpg", alt="Locari").sub-section__img
+
+      div#anc-service.l-section.l-section--service
+        div.l-section__inner
+          section.section.section--service
+            h1.section__hd SERVICE
+
+            section.sub-section
+              h1.sub-section__hd
+                |BOOSTAR
+                br
+                |新しいスタートを加速するメディア
+              p.sub-section__txt
+                |インタビュー、クラウドファンディングのプロジェクト紹介、失敗経験のシェア、イベントレポートなど、
+                br
+                |新しいことに挑戦している、挑戦したい人を応援するメディアです
+              a(href="#").sub-section__link boostar.me
+              img(src="img/service/img.png" alt="").sub-section__img
+
+      div#anc-company.l-section.l-section--company
+        div.l-section__inner
+          section.section.section--company
+            h1.section__hd COMPANY
+
+            section.sub-section
+              h1.sub-section__hd
+                |代表メッセージ
+              img(src="img/company/avatar-01.png", width="117", height="117" alt="渡邊 雄介").sub-section__avatar
+              p.sub-section__name
+                |代表取締役社長
+                br
+                |渡邊 雄介
+              p.sub-section__txt
+                |全ての人が充実している社会をco-designしたい」
+                br
+                |elevenninesは「あなた」の理解者となり、「あなたのWill（実現・達成・解決したいこと）」によりそう企業です。
+                br
+                |実現に向かう道筋の途中で何らかの課題にぶつかったとき、「co-design（一緒に解決）する」仲間となり、わたしたちの保有する様々なスキル（デザイン、PR、開発、企画）の提供を行うことで実現力を上げたいと考えています。
+                br
+                |是非、「あなたのWill」を聞かせてください。
+                br
+                |わたしたちは「あなた」の仲間として、全力で背中を押すことを約束します。
+
+            section.sub-section
+              h1.sub-section__hd
+                |メンバー
+              div.row
+                div.col-lg-2.col-md-4.col-xs-6
+                  img(src="img/company/avatar-02.png", width="117", height="117" alt="三宅高弘").sub-section__avatar
+                  p.sub-section__name
+                    |取締役副社長/
+                    br
+                    |デザイン最高責任者
+                    br
+                    |三宅高弘
+                div.col-lg-2.col-md-4.col-xs-6
+                  img(src="img/company/avatar-03.png", width="117", height="117" alt="大和直人").sub-section__avatar
+                  p.sub-section__name
+                    |最高執行責任者/
+                    br
+                    |PRデザイナー
+                    br
+                    |大和直人
+                div.col-lg-2.col-md-4.col-xs-6
+                  img(src="img/company/avatar-04.png", width="117", height="117" alt="永井俊之").sub-section__avatar
+                  p.sub-section__name
+                    |テクニカル
+                    br
+                    |デザイナー
+                    br
+                    |永井俊之
+                div.col-lg-2.col-md-4.col-xs-6
+                  img(src="img/company/avatar-05.png", width="117", height="117" alt="小林伸行").sub-section__avatar
+                  p.sub-section__name
+                    |アップルビジネス
+                    br
+                    |デザイナー
+                    br
+                    |小林伸行
+                div.col-lg-2.col-md-4.col-xs-6
+                  img(src="img/company/avatar-06.png", width="117", height="117" alt="時藤資樹").sub-section__avatar
+                  p.sub-section__name
+                    |シニアテクニカル
+                    br
+                    |デザイナー
+                    br
+                    |時藤資樹
+                div.col-lg-2.col-md-4.col-xs-6
+                  img(src="img/company/avatar-07.png", width="117", height="117" alt="ノーラン・ワーナー").sub-section__avatar
+                  p.sub-section__name
+                    |テクニカル
+                    br
+                    |デザイナー
+                    br
+                    |ノーラン・ワーナー
+
+              dl.company-list
+                dt 社名：
+                dd イレブンナイン株式会社 elevennines,Inc.
+                dt 本社：
+                dd 〒160-0023 東京都新宿区西新宿7-5-9-912
+                dt 代表者：
+                dd 代表取締役社長 渡邊雄介
+                dt 設立：
+                dd 2014年1月21日
+                dt 事業内容：
+                dd UI/UXデザイン、PR/広報/企画コンサルティング、ITコンサルティング、アプリ開発、Web制作
+                dt 取引実績：
+                dd 株式会社PIAZZA、ヤマハ株式会社、株式会社ベクトル、株式会社サニーサイドアップ、株式会社マイナビ、株式会社スタイルレシピ、エンジャパン株式会社、アド・コムグループ株式会社、株式会社日立システムズ、株式会社セプテーニ・ベンチャーズ、トークノート株式会社、株式会社ワンダーシェイク、株式会社Gunosy
+
+              ul.social-list
+                li
+                  a(href="#").btn.btn--facebook
+                li
+                  a(href="#").btn.btn--twitter
+
+      div#anc-contact.l-section.l-section--contact
+        div.l-section__inner
+          section.section.section--contact
+            h1.section__hd CONTACT
+            form.form
+              p.form__caption お気軽にお問い合わせください。 各種ポートフォリオはこちらから資料請求をお願い致します。
+              div.form__input.row
+                div.col-md-4
+                  input(type="text", placeholder="お名前").input
+                div.col-md-4
+                  input(type="text", placeholder="Email").input
+                div.col-md-4
+                  input(type="text", placeholder="タイトル").input
+
+              div.form__textarea
+                textarea(placeholder="本文").textarea
+
+              div.form__btn
+                input(type="submit", value="送信").btn.btn--action
+
+      footer.l-footer.footer
+        div.footer__txt
+          span Copyright © 2014 elevennines,Inc.
+          span &nbsp;All rights reserved.
+
+    script(src="js/lib/jquery.min.js")
+    script(src="js/lib/jquery.waypoints.min.js")
+    script(src="js/lib/iscroll-lite.js")
+    script(src="js/lib/jquery.drawer.min.js")
+    script(src="js/common.js")
