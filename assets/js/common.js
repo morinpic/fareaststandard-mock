@@ -17,7 +17,7 @@ $(function(){
 
 // tarcking
 $(function () {
-  $waypoint = $('#anc-about');
+  $waypoint = $('#js-initTarcking');
   $target = $('#js-tracking');
   trackingPos = $waypoint.offset().top;
   isTracking = false;
@@ -62,10 +62,10 @@ $(function () {
   }, 400);
 
   new Waypoint({
-    element: document.getElementById('anc-about'),
+    element: document.getElementById('js-initTarcking'),
     offset: $('#js-tracking').height() + 'px',
     handler: function(direction) {
-      $('#anc-about').find('.section').addClass('is-animation');
+      $('#js-initTarcking').find('.section').addClass('is-animation');
     }
   });
 

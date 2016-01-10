@@ -1,0 +1,20 @@
+@import "drawer/drawer.min";
+
+.drawer-left {
+  .drawer-main {
+    display: none;
+    left: 20px;
+    width: 260px;
+    overflow: visible;
+    // Small devices layout
+    @include media-breakpoint-down(sm) {
+      display: block;
+    }
+  }
+}
+
+.drawer-open {
+  .btn.btn--burger {
+    background-image: url('../img/common/icon-burger-close.png');
+  }
+}

@@ -1,0 +1,31 @@
+.card {
+  padding: 50px;
+  text-align: left;
+  background-color: #fff;
+  line-height: 1.6;
+  color: #ccc;
+  .card__inner {
+    position: relative;
+    height: 100%;
+  }
+  .card__title {
+    padding-top: 22px;
+    font-size: 2rem;
+  }
+  .card__text {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  .card__date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.2rem;
+  }
+  .card__category {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 1.4rem;
+  }
+}

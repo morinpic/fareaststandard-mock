@@ -1,0 +1,38 @@
+@import "../vendor/bootstrap/bootstrap-reboot";
+@import "compass/reset";
+
+html {
+	font-size: 16px;
+	font-size: 62.5%;
+	-webkit-text-size-adjust: 100%;
+	font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, sans-serif;
+	// font-family: $site-font-family;
+}
+body {
+	font-size: 1.2rem;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); // ボタンタップ時のハイライトを消す
+	-webkit-overflow-scrolling: touch; //iOS対応
+  word-wrap: break-word;
+	transition: all cubic-bezier(.645, .045, .355, 1).8s;
+	// opacity: 0;
+	// &.is-animation {
+	// 	opacity: 1;
+	// }
+}
+
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+	background-color: transparent;
+	border: transparent;
+	@include appearance(none); // 見た目をリセット
+	@include border-radius(0); // iOS対応
+	border: 0;
+	outline : none;
+	@include box-sizing(border-box);
+}
+textarea {
+	resize: none;
+}

@@ -1,0 +1,85 @@
+// section layout
+.l-section {
+  position: relative;
+  width: 100%;
+  .l-section__inner {
+    margin: 0 auto;
+    padding: 20px 20px 50px;
+    max-width: 1064px;
+  }
+}
+
+
+// hero section layout
+.l-section.l-section--hero {
+  // background-image: url('../img/article/img_012.jpg');
+  // background-image: url('../img/article/img_008.jpg');
+  background-image: url('../img/article/img_005.jpg');
+  background-size: cover;
+  background-position: center center;
+  filter: grayscale(100%);
+  .l-section__inner {
+    padding: 20px 20px 0;
+  }
+}
+
+// // about section layout
+// .l-section.l-section--about {
+//   .l-section__inner {
+//     padding: 40px 44px 0;
+//     // Small devices layout
+//     @include media-breakpoint-down(sm) {
+//       padding: 24px 20px 0;
+//     }
+//   }
+// }
+//
+// // works section layout
+// .l-section.l-section--works {
+//   background-color: #eee;
+//   .l-section__inner {
+//     padding: 82px 25px 45px;
+//     // Small devices layout
+//     @include media-breakpoint-down(sm) {
+//       padding: 24px 20px 28px;
+//     }
+//   }
+// }
+//
+// // service section layout
+// .l-section.l-section--service {
+//   background-image: url('../img/service/img-background.jpg');
+//   background-size: cover;
+//   background-position: center center;
+//   .l-section__inner {
+//     padding-top: 50px;
+//     // Small devices layout
+//     @include media-breakpoint-down(sm) {
+//       padding: 24px 20px 0;
+//     }
+//   }
+// }
+//
+// // company section layout
+// .l-section.l-section--company {
+//   background-color: #eee;
+//   .l-section__inner {
+//     padding: 70px 44px 45px;
+//     // Small devices layout
+//     @include media-breakpoint-down(sm) {
+//       padding: 26px 20px 19px;
+//     }
+//   }
+// }
+//
+// contact section layout
+.l-section.l-section--contact {
+  background-color: #000;
+  .l-section__inner {
+    padding: 55px 44px 60px;
+    // Small devices layout
+    @include media-breakpoint-down(sm) {
+      padding: 33px 20px 9px;
+    }
+  }
+}

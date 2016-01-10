@@ -1,0 +1,64 @@
+// nav
+.nav {
+  .nav__list {
+    @include pie-clearfix();
+    > li {
+      float: left;
+      margin-left: 20px;
+      &:first-child {
+        margin-left: 0;
+      }
+      a {
+        display: block;
+        position: relative;
+        padding-bottom: 8px;
+        line-height: 1;
+        font-size: 1.8rem;
+        color: #fff;
+        text-decoration: none;
+        // text-transform: uppercase;
+        background: 0 0;
+        font-weight: 600;
+        font-family: $en-key-font-family;
+        @include transition(all .2s linear);
+        &:hover {
+          opacity: .6;
+        }
+      }
+    }
+  }
+}
+
+// drawer nav
+.nav.drawer-nav {
+  position: relative;
+  padding: 35px 20px 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .9);
+  .nav__btn {
+    position: absolute;
+    top: 8px;
+    right: -43px;
+    opacity: .9;
+  }
+  .nav__side-list {
+    > li {
+      margin-top: 40px;
+      &:first-child {
+        margin-top: 0;
+      }
+      a {
+        display: block;
+        padding: 10px 8px;
+        font-size: 1.8rem;
+        color: #fff;
+        font-weight: 600;
+        font-family: $en-key-font-family;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
